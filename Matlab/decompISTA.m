@@ -40,7 +40,7 @@ if isnumeric(T)
    Tt = @(x) T\x; % T^{-1}*x
    T  = @(x) T*x;
 end
-
+ 
 FuncVal = [];
 
 %% Iterations
